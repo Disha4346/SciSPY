@@ -58,8 +58,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Support
 
 For support:
-- Create an issue in the GitHub repository
-- Email: support@scispy.org
+- Create an issue in the GitHub repository (always welcome 😊)
+- Email: dg107835@gmail.com
 
 ## Citation
 
@@ -70,6 +70,6 @@ If you use SciSpy in your research, please cite:
   author = {SciSpy Team},
   title = {SciSpy: Scientific Computing with AI},
   year = {2025},
-  url = {https://github.com/yourusername/scispy}
+  url = {https://github.com/Disha4346/scispy}
 }
 ```
