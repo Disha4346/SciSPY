@@ -1,75 +1,67 @@
 # SciSPY
-A powerful AI framework for scientific computing and automated task management, built on the Heurist AI principles.
 
-## Overview
-
-SciSpy is an open-source framework that combines hierarchical task management with multi-agent systems to solve complex scientific computing problems. It provides researchers and developers with tools for automated data analysis, decision support, and process management.
+## Introduction
+SciSPY is a smart research agent that streamlines the academic paper discovery process. Using various APIs and heuristic-based analysis, it searches and retrieves research papers based on user prompts and provides valuable insights into the findings.
 
 ## Features
+- Intelligent paper search based on user prompts
+- Customizable number of paper retrievals
+- In-depth analysis and insights generation
+- User-friendly interface for both students and educators
+- Scalable architecture for growing research needs
 
-- **Hierarchical Task Management**
-  - Smart task decomposition
-  - Dependency tracking
-  - Dynamic resource allocation
+## Technologies Used
+- Python (Core programming language)
+- Heurist Agent Framework
+- HTML/CSS (Frontend interface)
+- Deployment infrastructure
 
-- **Multi-Agent System**
-  - Specialized agents for different domains
-  - Robust inter-agent communication
-  - Centralized coordination
-
-- **Advanced Knowledge Processing**
-  - Structured knowledge representation
-  - Machine learning integration 
-  - Cross-domain knowledge transfer
-
-- **Resource Optimization**
-  - Automated resource allocation
-  - Memory management
-  - Load balancing
-
-## Requirements
-
-- Python 3.8+
-- NumPy ≥ 1.20
-- TensorFlow ≥ 2.6
-- 8GB RAM minimum
-- CUDA-compatible GPU (recommended)
-
-## Quick Start
-
-```python
-from scispy import TaskManager, Agent
-
-# Initialize task manager
-tm = TaskManager()
-
-# Create specialized agent
-agent = Agent(domain="data_analysis")
-
-# Define and execute task
-task = tm.create_task("analyze_dataset")
-result = agent.execute(task)
+## Installation
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/scispy.git
 ```
+
+2. Create and activate virtual environment:
+```bash
+python -m venv venv
+source venv/bin/activate  # For Unix/MacOS
+venv\Scripts\activate     # For Windows
+```
+
+3. Install required dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+SciSPY is designed to be accessible for various user groups, including college students, teachers, and researchers. The platform offers an intuitive interface for:
+1. Entering research topics or prompts
+2. Specifying the number of papers to retrieve
+3. Viewing and analyzing research findings
+4. Generating insights based on the collected papers
+
+## API Documentation
+Reference documentation for integrated APIs:
+- [API Documentation Link 1]
+- [API Documentation Link 2]
+- [API Documentation Link 3]
+- [API Documentation Link 4]
+
+## Contributing
+Currently, this project is closed for modifications. All rights are reserved by the project maintainers.
 
 ## License
+All rights reserved. No modifications are permitted without explicit permission from the project owners.
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## Contact
+For support, inquiries, or more information about SciSPY, please reach out through:
+[Your contact information here]
 
-## Support
+## Acknowledgments
+Special thanks to:
+- Contributors and team members
+- API service providers
+- Testing and feedback providers
 
-For support:
-- Create an issue in the GitHub repository (always welcome 😊)
-- Email: dg107835@gmail.com
-
-## Citation
-
-If you use SciSpy in your research, please cite:
-
-```bibtex
-@software{scispy2025,
-  author = {SciSpy Team},
-  title = {SciSpy: Scientific Computing with AI},
-  year = {2025},
-  url = {https://github.com/Disha4346/scispy}
-}
-```
+*Note: This README is a living document and will be updated as the project evolves.*
