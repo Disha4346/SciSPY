@@ -43,13 +43,13 @@ SciSPY is designed to be accessible for various user groups, including college s
 
 ## API Documentation
 Reference documentation for integrated APIs:
-- [API Documentation Link 1]
-- [API Documentation Link 2]
-- [API Documentation Link 3]
-- [API Documentation Link 4]
+- [[API Documentation Link 1](https://info.arxiv.org/help/api/index.html)]
+- [[API Documentation Link 2](https://www.semanticscholar.org/product/api)]
+- [[API Documentation Link 3](https://paperswithcode.com/api/v1/docs/)]
+- [[API Documentation Link 4](https://www.crossref.org/documentation/retrieve-metadata/rest-api/)]
 
 ## Contributing
-Currently, this project is closed for modifications. All rights are reserved by the project maintainers.
+Currently, this project is closed for modifications by viewers for now. All rights are reserved by the project maintainers.
 
 ## License
 All rights reserved. No modifications are permitted without explicit permission from the project owners.
