@@ -82,5 +82,5 @@ if theme == "Dark":
     )
 
 st.sidebar.markdown("---")
-st.sidebar.info("👨‍💻 Developed by **Team CodeClan** | 🚀 Powered by AI")
+st.sidebar.info("👨‍💻 Developed by **Team CodeClan** | 🚀 Usage of Track Heurist")
 
