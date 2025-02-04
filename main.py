@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 import asyncio
-from mesh.research_agent import ResearchAgent
+from heurist_agent import ResearchAgent
 
 app = FastAPI()
 
