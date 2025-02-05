@@ -13,8 +13,9 @@ SciSPY is a smart research agent that streamlines the academic paper discovery p
 ## Technologies Used
 - Python (Core programming language)
 - Heurist Agent Framework
-- HTML/CSS (Frontend interface)
+- Streamlit(Frontend interface)
 - Deployment infrastructure
+
 
 ## Installation
 1. Clone the repository:
