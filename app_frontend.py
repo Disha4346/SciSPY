@@ -4,7 +4,7 @@ import time
 
 API_URL = "https://random-subdomain.ngrok-free.app"  # Update if needed
 
-st.set_page_config(page_title="SciSpy Research Assistant",icon="📜", layout="wide")
+st.set_page_config(page_title="SciSpy Research Assistant",page_icon="📜", layout="wide")
 
 st.title("🧑‍🔬 SciSpy Research Assistant")
 st.write("🚀 Explore research papers and find answers to your queries.")
