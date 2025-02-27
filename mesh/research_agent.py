@@ -7,7 +7,7 @@ from typing import Dict, Any
 
 # Configure logging and Gemini
 logging.basicConfig(level=logging.INFO)
-GEMINI_API_KEY = "AIzaSyAbyZguUXue50Unx0Mgvebj_vmLJMHq358"
+#GEMINI_API_KEY = "AIzaSyAbyZguUXue50Unx0Mgvebj_vmLJMHq358"
 genai.configure(api_key=GEMINI_API_KEY)
 model = genai.GenerativeModel("gemini-1.5-flash")
 
