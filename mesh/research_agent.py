@@ -15,7 +15,8 @@ class ResearchAgent:
     def __init__(self):
         self.pdf_content = None
         
-    async def fetch_papers(self, topic, max_results=5):
+    @st.cache_data  # Cache results to avoid repeated API calls
+    def fetch_papers(self, topic, max_results=5):
         try:
             search = arxiv.Search(
                 query=topic,
