@@ -22,8 +22,7 @@ if st.button("🔎 Search") and query:
             st.session_state["papers"] = data["papers"]  # Store results in session state
         else:
             st.error("⚠️ Error retrieving research papers. Please try again.")
-else:
-    st.error(f"⚠️ API Error: {response.status_code}, {response.text}")
+
 # 🔎 Display search results (persistent across interactions)
 if "papers" in st.session_state and st.session_state["papers"]:
     st.subheader("📑 **Search Results**")
