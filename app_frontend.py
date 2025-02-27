@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 import time
 
-API_URL = "https://random-subdomain.ngrok-free.app"  # Update if needed
+API_URL = "http://127.0.0.1:8000"  # Update if needed
 
 st.set_page_config(page_title="SciSpy Research Assistant",page_icon="📜", layout="wide")
 
