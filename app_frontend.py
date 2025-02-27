@@ -19,10 +19,13 @@ if st.button("🔎 Search") and query:
 
         if response.status_code == 200:
             data = response.json()
-            st.session_state["papers"] = data["papers"]  # Store results in session state
+            st.write("API Response:", data)  # Debugging
+            if "papers" in data:
+                st.session_state["papers"] = data["papers"]
         else:
-            st.error("⚠️ Error retrieving research papers. Please try again.")
-
+            st.error("⚠️ 'papers' key not found in API response.")
+else:
+    st.error(f"⚠️ API Error: {response.status_code}, {response.text}")
 # 🔎 Display search results (persistent across interactions)
 if "papers" in st.session_state and st.session_state["papers"]:
     st.subheader("📑 **Search Results**")
