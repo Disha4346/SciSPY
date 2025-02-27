@@ -11,7 +11,8 @@ st.write("🚀 Explore research papers and find answers to your queries.")
 
 # 🔍 Search for research papers
 query = st.text_input("🔍 **Search for research papers** (e.g., AI, Quantum Computing)", key="search_query")
-
+if 'papers' not in st.session_state:
+    st.session_state.papers = ''
 if st.button("🔎 Search") and query:
     with st.spinner("Fetching research papers..."):
         response = requests.post(f"{API_URL}/search_papers/", json={"query": query})
